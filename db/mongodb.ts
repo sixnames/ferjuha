@@ -18,7 +18,6 @@ export async function getDatabase(uri = process.env.MONGO_URL): Promise<Db> {
   }
 
   // If no connection is cached, create a new one
-  console.log(uri);
   const client = await MongoClient.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,

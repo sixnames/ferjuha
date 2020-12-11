@@ -20,7 +20,7 @@ export default function Home() {
 
 export async function getStaticProps() {
   const db = await getDatabase();
-  const collection = db.collection('items');
+  const collection = db.collection('users');
   const items = await collection.find({}).toArray();
 
   return {
