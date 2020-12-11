@@ -9,26 +9,32 @@
     "generate": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "formik": "^2.2.5",
+    "mongodb": "^3.6.3",
     "next": "10.0.3",
+    "next-auth": "^3.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "mongodb": "^3.6.3",
-    "formik": "^2.2.5",
-    "next-auth": "^3.1.0",
-    "yup": "^0.31.0"
+    "yup": "^0.31.0",
+    "autoprefixer": "^10.0.3",
+    "classnames": "^2.2.6",
+    "postcss": "^8.1.10",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
-    "@types/node": "^14.14.12",
-    "@types/react": "^17.0.0",
-    "@types/mongodb": "^3.6.3",
-    "@types/next-auth": "^3.1.17",
-    "@types/yup": "^0.29.6",
-    "typescript": "^4.1.2",
     "@graphql-codegen/cli": "^1.17.8",
     "@graphql-codegen/introspection": "^1.17.8",
     "@graphql-codegen/typescript": "^1.17.9",
     "@graphql-codegen/typescript-operations": "^1.17.8",
     "@graphql-codegen/typescript-react-apollo": "^2.0.6",
+    "@types/mongodb": "^3.6.3",
+    "@types/next-auth": "^3.1.17",
+    "@types/node": "^14.14.12",
+    "@types/react": "^17.0.0",
+    "@types/yup": "^0.29.6",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
@@ -44,6 +50,7 @@
     "eslint-plugin-react-app": "^6.2.2",
     "eslint-plugin-react-hooks": "^4.1.0",
     "graphql": "^15.3.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "typescript": "^4.1.2"
   }
 }
