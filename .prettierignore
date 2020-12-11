@@ -1,6 +1,6 @@
 .cache
+.next
 package.json
-package-lock.json
 node_modules
 yarn.lock
 public
