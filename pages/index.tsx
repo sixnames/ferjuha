@@ -1,22 +1,29 @@
-import Head from 'next/head';
 import { getDatabase } from '../db/mongodb';
+import React from 'react';
+import { signIn, signOut, useSession } from 'next-auth/client';
 
-export default function Home() {
+const Page = () => {
+  const [session] = useSession();
+
   return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel='icon' href={'/favicon.ico'} />
-      </Head>
-
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur debitis
-        delectus eaque eum id, impedit ipsam itaque iure natus nihil omnis, reiciendis similique sit
-        voluptates! Amet illo omnis tempora!
-      </div>
-    </div>
+    <>
+      {!session && (
+        <>
+          Not signed in <br />
+          <button onClick={() => signIn()}>Sign in</button>
+        </>
+      )}
+      {session && (
+        <>
+          Signed in as {session.user.email} <br />
+          <button onClick={() => signOut()}>Sign out</button>
+        </>
+      )}
+    </>
   );
-}
+};
+
+export default Page;
 
 export async function getStaticProps() {
   const db = await getDatabase();
