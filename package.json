@@ -9,6 +9,8 @@
     "generate": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "apollo-server-micro": "^2.19.0",
     "formik": "^2.2.5",
     "mongodb": "^3.6.3",
     "next": "10.0.3",
