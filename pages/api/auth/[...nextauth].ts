@@ -60,7 +60,7 @@ const options: InitOptions = {
         username: user.username,
         role: user.role,
       };
-      console.log('callbacks.session\n', sessionUser);
+
       return Promise.resolve({
         ...session,
         user: sessionUser,
@@ -83,7 +83,7 @@ const options: InitOptions = {
           role: dbUser.role,
         };
       }
-      console.log('callbacks.jwt\n', response);
+
       return Promise.resolve(response);
     },
   },

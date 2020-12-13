@@ -2,10 +2,13 @@ import { ApolloServer } from 'apollo-server-micro';
 import { gql } from '@apollo/client';
 import { getDatabase } from '../../db/mongodb';
 import { makeExecutableSchema } from 'graphql-tools';
+// import { getSession } from 'next-auth/client';
 
 export const resolvers = {
   Query: {
-    async me() {
+    async me(_parent: any, _args: any, _context: any) {
+      // const session = await getSession(context);
+      // console.log(session);
       const db = await getDatabase();
       const collection = db.collection('users');
       return collection.findOne({});
