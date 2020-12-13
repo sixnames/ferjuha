@@ -9,20 +9,13 @@
     "generate": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.3.1",
     "formik": "^2.2.5",
     "mongodb": "^3.6.3",
     "next": "10.0.3",
     "next-auth": "^3.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "yup": "^0.31.0",
-    "autoprefixer": "^10.0.3",
-    "classnames": "^2.2.6",
-    "postcss": "^8.1.10",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.0.1"
+    "yup": "^0.31.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.17.8",
