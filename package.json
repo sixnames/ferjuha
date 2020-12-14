@@ -13,12 +13,17 @@
     "apollo-upload-client": "^14.1.3",
     "apollo-server-micro": "^2.19.0",
     "apollo-link-schema": "^1.2.5",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.12.2",
     "formik": "^2.2.5",
+    "generate-password": "^1.5.1",
     "mongodb": "^3.6.3",
     "next": "10.0.3",
     "next-auth": "^3.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0",
     "yup": "^0.31.0"
   },
   "devDependencies": {
@@ -27,6 +32,7 @@
     "@graphql-codegen/typescript": "^1.17.9",
     "@graphql-codegen/typescript-operations": "^1.17.8",
     "@graphql-codegen/typescript-react-apollo": "^2.0.6",
+    "@types/bcryptjs": "^2.4.2",
     "@types/mongodb": "^3.6.3",
     "@types/next-auth": "^3.1.17",
     "@types/node": "^14.14.12",
@@ -35,6 +41,12 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "babel-plugin-parameter-decorator": "^1.0.16",
+    "babel-plugin-transform-typescript-metadata": "^0.3.0",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.7",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-css-modules": "^2.11.0",
@@ -48,6 +60,12 @@
     "eslint-plugin-react-hooks": "^4.1.0",
     "graphql": "^15.3.0",
     "prettier": "^2.1.1",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "@shelf/jest-mongodb": "^1.2.3",
+    "@types/jest": "^26.0.12",
+    "apollo-server-integration-testing": "^2.3.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0"
   }
 }
