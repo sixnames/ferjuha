@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5852428c-5f00-4482-a6ce-7e2e1aaab1d2" name="Default Changelist" comment="apollo client added">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/entities/User.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/resolvers/user/UserResolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo/schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apollo/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apollo/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codegen.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codegen.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/graphql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/graphql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/entities/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/resolvers/user/UserResolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo/schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/graphql.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>

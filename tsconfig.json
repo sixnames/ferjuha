@@ -33,8 +33,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "allowJs": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
   },
   "include": [
     "next-env.d.ts",
